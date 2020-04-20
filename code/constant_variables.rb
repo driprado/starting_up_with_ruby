@@ -1,0 +1,2 @@
+CONSTANT_X = 1
+CONSTANT_X = 2

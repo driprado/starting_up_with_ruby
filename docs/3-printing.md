@@ -1,0 +1,52 @@
+# 3 Printing in Ruby  
+
+## 3.1 Print statement
+Does not add a new line in the end of the statement  
+Ex: `printing.rb`  
+
+```
+print "This is a tring"
+print ["a", "b", "c"]
+print [1, 2, 3]
+```
+*Outpute:*  
+`This is a tring["a", "b", "c"][1, 2, 3]%`  
+
+
+## 3.2 Puts statement
+Add a new line by default on the end of the statement  
+Iterate through arrays   
+Ex: `printing.rb`
+```
+puts "This is a tring"
+puts ["a", "b", "c"]
+puts [1, 2, 3]
+```
+*Output*
+```
+This is a tring
+a
+b
+c
+1
+2
+3
+``` 
+
+## 3.2 P statement
+It also adds new line by default in the end of the statement.  
+Gives a better indicatin of types that are being printed.  
+Ex: `printing.rb`  
+
+```
+p "This is a tring"
+p ["a", "b", "c"]
+p [1, 2, 3]
+```  
+
+*Output:*  
+```
+"This is a tring"  
+["a", "b", "c"]  
+[1, 2, 3]
+```
