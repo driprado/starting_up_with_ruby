@@ -1,5 +1,5 @@
 # 3 Printing in Ruby  
-There are 3 ways to print in ruby; `print`, `puts` and `p
+There are 3 ways to print in ruby; `print`, `puts` and `p`
 
 ## 3.1 Print statement
 Does not add a new line in the end of the statement  
