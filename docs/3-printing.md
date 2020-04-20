@@ -15,7 +15,7 @@ print [1, 2, 3]
 
 
 ## 3.2 Puts statement
-Add a new line by default on the end of the statement  
+Add a new line by default in the end of the statement  
 Iterate through arrays   
 Ex: `printing.rb`
 ```
