@@ -9,7 +9,7 @@ print "This is a tring"
 print ["a", "b", "c"]
 print [1, 2, 3]
 ```
-*Outpute:*  
+*Output:*  
 `This is a tring["a", "b", "c"][1, 2, 3]%`  
 
 
