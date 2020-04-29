@@ -2,7 +2,7 @@
 ## 2.1 Local Variables
 Exists only inside the loop / method / function ...
 
-Ex: `local_variables.rb`  
+Ex: [`local_variables.rb`](code/2_local_variables.rb)  
 
 ```
 5.times do  # This is a loop
