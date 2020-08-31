@@ -13,7 +13,7 @@ p x         # Error, x does not exists outside the loop
 ```
 
 ## 2.2 Global Variables  
-Is visible thruout the code, even outside the loop / method / function  
+Is visible throughout the code, even outside the loop / method / function  
 Ex: `global_variables.rb`
 
 ```
