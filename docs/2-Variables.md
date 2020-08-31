@@ -28,7 +28,7 @@ An instance variable starts with '@'.
 Its scope is confined to whatever object self refers to. Two different objects, even if they belong to the same class, are allowed to have different values for their instance variables. From outside the object, instance variables cannot be altered or even observed
 
 ## 2.4 Constant Variables
-A Constant variable value is supposed to remain the same for the duration of the program. The Ruby interpreter does enforce this, but it does issue a warning if a program changes the value of a constant.  
+A Constant variable value is supposed to remain the same for the duration of the program. The Ruby interpreter doesn't enforce this, but it does issue a warning if a program changes the value of a constant.  
 Ex: `constand_variables.rb`
 
 ```
