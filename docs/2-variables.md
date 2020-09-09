@@ -29,7 +29,7 @@ Its scope is confined to whatever object self refers to. Two different objects, 
 
 ## 2.4 Constant Variables
 A Constant variable value is supposed to remain the same for the duration of the program. The Ruby interpreter doesn't enforce this, but it does issue a warning if a program changes the value of a constant.  
-Ex: [`constant_variables.rb`](../code/constant_variables)
+Ex: [`2_constant_variables.rb`](../code/2_constant_variables.rb)
 
 ```
 CONSTANT_X = 1
