@@ -9,9 +9,10 @@ Ex: [`3_printing.rb`](../code/3_printing.rb)
 print "This is a tring"
 print ["a", "b", "c"]
 print [1, 2, 3]
+
+# Output:
+This is a tring["a", "b", "c"][1, 2, 3]%
 ```
-*Output:*  
-`This is a tring["a", "b", "c"][1, 2, 3]%`  
 
 
 ## 3.2 Puts statement
@@ -22,9 +23,8 @@ Ex: [`3_printing.rb`](../code/3_printing.rb)
 puts "This is a tring"
 puts ["a", "b", "c"]
 puts [1, 2, 3]
-```
-*Output*
-```
+
+# Output:
 This is a tring
 a
 b
@@ -32,7 +32,8 @@ c
 1
 2
 3
-``` 
+```
+
 
 ## 3.2 P statement
 It also adds new line by default in the end of the statement.  
@@ -43,11 +44,9 @@ Ex: [`3_printing.rb`](../code/3_printing.rb)
 p "This is a tring"
 p ["a", "b", "c"]
 p [1, 2, 3]
-```  
 
-*Output:*  
-```
+# Output:
 "This is a tring"  
 ["a", "b", "c"]  
 [1, 2, 3]
-```
+```  
