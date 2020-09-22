@@ -2,7 +2,11 @@
 ## 2.1 Local Variables
 Exists only inside the loop / method / function ...
 
+<<<<<<< HEAD:docs/2-Variables.md
 Ex: `2_local_variables.rb`  
+=======
+Ex: [`2_local_variables.rb`](../code/2_local_variables.rb)  
+>>>>>>> 782f18e11a8a6d77cd29bc2b34823b7defa46076:docs/2-variables.md
 
 ```
 5.times do  # This is a loop
@@ -13,8 +17,13 @@ p x         # Error, x does not exists outside the loop
 ```
 
 ## 2.2 Global Variables  
+<<<<<<< HEAD:docs/2-Variables.md
 Is visible thruout the code, even outside the loop / method / function  
 Ex: `2_global_variables.rb`
+=======
+Is visible throughout the code, even outside the loop / method / function  
+Ex: [`2_global_variables.rb`](../code/2_global_variables.rb)
+>>>>>>> 782f18e11a8a6d77cd29bc2b34823b7defa46076:docs/2-variables.md
 
 ```
 5.times do
@@ -28,8 +37,13 @@ An instance variable starts with '@'.
 Its scope is confined to whatever object self refers to. Two different objects, even if they belong to the same class, are allowed to have different values for their instance variables. From outside the object, instance variables cannot be altered or even observed
 
 ## 2.4 Constant Variables
+<<<<<<< HEAD:docs/2-Variables.md
 A Constant variable value is supposed to remain the same for the duration of the program. The Ruby interpreter does enforce this, but it does issue a warning if a program changes the value of a constant.  
 Ex: `2_constand_variables.rb`
+=======
+A Constant variable value is supposed to remain the same for the duration of the program. The Ruby interpreter doesn't enforce this, but it does issue a warning if a program changes the value of a constant.  
+Ex: [`2_constant_variables.rb`](../code/2_constant_variables.rb)
+>>>>>>> 782f18e11a8a6d77cd29bc2b34823b7defa46076:docs/2-variables.md
 
 ```
 CONSTANT_X = 1

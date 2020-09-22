@@ -1,120 +1,158 @@
 # 4 String Manipulation  
-
-
-
 <br/><br/>
+
 ## 4.1 String Interpolation  
 
 Passing variable values into printing statements:  
-Ex: `string_interpolation.rb` Example 1  
+Ex: [`4_string_interpolation.rb`](../code/4_string_interpolation)   
 
 ```
+# Example 1
+
 first_programmer = "Ada Lovelace"
 puts "The first programmer was #{first_programmer}"
 ```  
 
-We use the gets method to get what is typed into the sell   
+We use the gets method to get what is type into the sell   
 
-Ex: `string_interpolation.rb` # Example 2   
+Ex: [`4_string_interpolation.rb`](../code/4_string_interpolation)   
 ```
+# Example 2
+
 puts "Enter your name"
 name = gets 
 puts "Hi #{name} how are you?"
-```
-*Output:*  
-*Enter your name  
+
+# Output:  
+Enter your name  
 lala  
 Hi lala             
- how are you?*
-
-Gets automatically adds a new lnie after input, if you want your hole print statement to be in the same line, use `get.chomp`    
-Ex: `string_interpolation` # Example 3
+ how are you?
 ```
+
+
+Gets automatically adds a new line after input, if you want your hole print statement to be in the same line, use `get.chomp`    
+
+Ex: [`4_string_interpolation.rb`](../code/4_string_interpolation) 
+```
+# Example 3
+
 puts "Enter your name"
 name = gets.chomp
 puts "Hi #{name} how are you?"
-```
-*Output*  
-*Enter your name  
+
+Output:  
+Enter your name  
 lala  
-Hi lala how are you?*    
-
-
-### Evaluations can be made inside the { }:  
-Ex: `string_interpolation.rb` # Example 4
+Hi lala how are you?    
 ```
+
+
+### Evaluations can be made inside the curly brackets { }:  
+Ex: [`4_string_interpolation.rb`](../code/4_string_interpolation) 
+```
+# Example 4
+
 puts "Anna had 6 apples, and gave 1 to Dan, now she has #{6 - 1} apples
+
+# Output:  
+Anna had 6 apples, and gave 1 to Dan, now she has 5 apples  
 ```
-*Output:*  
-*Anna had 6 apples, and gave 1 to Dan, now she has 5 apples*  
 
 <br/><br/>
 ## 4.2 String Methods
 There are several builtin methods to manipulate strings in Ruby, the most common are:  
 
-
 ### 4.2.1 upcase
-Ex: `string_methods.rb` # Example 1
+Ex: [`4_string_methods.rb`](../code/4_string_methods.rb) 
 
 ```
-puts "nuxgirl".upcase
+# Example 1
+
+puts "driprado".upcase
+
+#Output:  
+DRIPRADO  
 ```
-*Output:*  NUXGIRL  
+
 
 ### 4.2.2 downcase  
-Ex: `string_methods.rb` # Example 2
+Ex: [`4_string_methods.rb`](../code/4_string_methods.rb) 
 ```
-puts "Nuxgirl".downcase
+# Example 2
+
+puts "DRIPRADO".downcase
+
+# Output:
+driprado
 ```
-*Output:* nuxgirl  
 
 
 ### 4.2.3 swapcase
-Ex: `string_methods.rb` # Example 3
+Ex: [`4_string_methods.rb`](../code/4_string_methods.rb) 
 ```
-puts "Nuxgirl".swapcase
+# Example 3
+puts "DriPrado".swapcase
+
+# Output:
+dRIpRADO  
 ```
-*Output:* nUXGIRL  
 
 
 ### 4.2.3 reverse
-Ex: `string_methods.rb` # Example 4
+Ex: [`4_string_methods.rb`](../code/4_string_methods.rb) 
 ```
-puts "Nuxgirl".reverse
+# Example 4
+
+puts "Driprado".reverse
+
+# Output:
+odarpirD  
 ```
-*Output:* lrigxuN  
 
 
 ### 4.2.3 combining methods
-Ex: `string_methods.rb` # Example 5
+Ex: [`4_string_methods.rb`](../code/4_string_methods.rb) 
 ```
-puts "Nuxgirl".reverse.upcase
+# Example 5
+puts "Driprado".reverse.upcase
+
+# Output:
+ODARPIRD  
 ```
-*Output:* LRIGXUN  
 
 
 ### 4.2.4 split - converts strings into arrays
-Ex: `string_methods.rb` # Example 6
+Ex: [`4_string_methods.rb`](../code/4_string_methods.rb)  
+`# Example 6`
 ```
 tobe = "to be or not to be that is the question"
 p tobe.split
+
+# Output: ["to", "be", "or", "not", "to", "be", "that", "is", "the", "question"]  
 ```
-*Output:* ["to", "be", "or", "not", "to", "be", "that", "is", "the", "question"]  
+
 
 ```
 p tobe.split.size # Print the number of items in the array
+
+# Output: 10  
 ```  
-*Output:* 10  
+
 
 ```
 p tobe.split(//).size # Print how many letters in array
+
+# Output: 39
 ```  
-*Output:* 39
+
 
 ```
 p tobe.split(//)    # Split array by letter instead fo word
+
+# Output: ["t", "o", " ", "b", "e", " ", "o", "r", " ", "n", "o", "t", " ", "t", "o", " ", "b", "e", " ", "t", "h", "a", "t", " ", "i", "s", " ", "t", "h", "e", " ", "q", "u", "e", "s", "t", "i", "o", "n"]
+
 ```
-*Output:* ["t", "o", " ", "b", "e", " ", "o", "r", " ", "n", "o", "t", " ", "t", "o", " ", "b", "e", " ", "t", "h", "a", "t", " ", "i", "s", " ", "t", "h", "e", " ", "q", "u", "e", "s", "t", "i", "o", "n"]
 
 
 
