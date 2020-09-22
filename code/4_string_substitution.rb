@@ -9,7 +9,6 @@ p tobe.gsub "be", "kill" # substitutes the string 'be' for 'kill' in all its occ
 # By printing again, we can see that the string's value is not updated with the substitutions
 p tobe
 
-
 # Example 3
 # To update the value of the string after substution, use !:
 tobe.gsub! "be", "kill"

@@ -1,5 +1,3 @@
-########## String Methods ##########
-
 # Example  1 - upcase
 puts "driprado".upcase
 
