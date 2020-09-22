@@ -2,7 +2,7 @@
 ## 2.1 Local Variables
 Exists only inside the loop / method / function ...
 
-Ex: `local_variables.rb`  
+Ex: `2_local_variables.rb`  
 
 ```
 5.times do  # This is a loop
@@ -14,7 +14,7 @@ p x         # Error, x does not exists outside the loop
 
 ## 2.2 Global Variables  
 Is visible thruout the code, even outside the loop / method / function  
-Ex: `global_variables.rb`
+Ex: `2_global_variables.rb`
 
 ```
 5.times do
@@ -29,7 +29,7 @@ Its scope is confined to whatever object self refers to. Two different objects, 
 
 ## 2.4 Constant Variables
 A Constant variable value is supposed to remain the same for the duration of the program. The Ruby interpreter does enforce this, but it does issue a warning if a program changes the value of a constant.  
-Ex: `constand_variables.rb`
+Ex: `2_constand_variables.rb`
 
 ```
 CONSTANT_X = 1
