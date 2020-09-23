@@ -2,8 +2,8 @@
 
 ## 4.1 String Interpolation  
 
-Passing variable values into printing statements:  
-Ex: [`4_string_interpolation.rb`](../code/4_string_interpolation)
+Passing variable values into printing statements:
+Ex: [`4_string_interpolation.rb`](../code/4_string_interpolation.rb)
 
 ```bash
 # Example 1
@@ -14,13 +14,11 @@ puts "The first programmer was #{first_programmer}"
 
 We use the gets method to get what is type into the sell
 
-Ex: [`4_string_interpolation.rb`](../code/4_string_interpolation)
-
 ```bash
 # Example 2
 
 puts "Enter your name"
-name = gets 
+name = gets
 puts "Hi #{name} how are you?"
 
 # Output:  
@@ -31,8 +29,6 @@ Hi lala
 ```
 
 Gets automatically adds a new line after input, if you want your hole print statement to be in the same line, use `get.chomp`
-
-Ex: [`4_string_interpolation.rb`](../code/4_string_interpolation) 
 
 ```bash
 # Example 3
@@ -48,7 +44,6 @@ Hi lala how are you?
 ```
 
 Evaluations can be made inside the curly brackets { }:  
-Ex: [`4_string_interpolation.rb`](../code/4_string_interpolation.rb) 
 
 ```bash
 # Example 4
@@ -65,7 +60,7 @@ There are several builtin methods to manipulate strings in Ruby, the most common
 
 ### 4.2.1 upcase
 
-Ex: [`4_string_methods.rb`](../code/4_string_methods.rb) 
+Ex: [`4_string_methods.rb`](../code/4_string_methods.rb)
 
 ```bash
 # Example 1
@@ -75,7 +70,6 @@ puts "driprado".upcase
 #Output:  
 DRIPRADO  
 ```
-
 
 ### 4.2.2 downcase  
 
@@ -100,7 +94,6 @@ dRIpRADO
 
 ### 4.2.3 reverse
 
-
 ```bash
 # Example 4
 
@@ -111,7 +104,6 @@ odarpirD
 ```
 
 ### 4.2.3 combining methods
-
 
 ```bash
 # Example 5
@@ -128,7 +120,7 @@ ODARPIRD
 tobe = "to be or not to be that is the question"
 p tobe.split
 
-# Output: 
+# Output:
 ["to", "be", "or", "not", "to", "be", "that", "is", "the", "question"]  
 ```
 
@@ -188,7 +180,7 @@ p tobe.gsub "be", "kill" # substitutes the string 'be' for 'kill' in all its occ
 "To kill or not to kill, that is the question"
 ```
 
-### 4.3.3 Permanently substitute string:
+### 4.3.3 Permanently substitute string
 
 Substitutes the all the occuences of a string  
 Ex: `4_string_substitution.rb`
