@@ -168,7 +168,6 @@ p tobe.sub "be", "kill" # Substitutes the string 'be' for 'kill' in it's first o
 ### 4.3.2 gsub
 
 Substitutes the all the occuences of a string  
-Ex: `4_string_substitution.rb`
 
 ```bash
 # Example 2
@@ -181,28 +180,17 @@ p tobe.gsub "be", "kill" # substitutes the string 'be' for 'kill' in all its occ
 ```
 
 ### 4.3.3 Permanently substitute string
-
-Substitutes the all the occuences of a string  
-Ex: `4_string_substitution.rb`
+ 
+To change permanently this variable use `!`:  
 
 ```bash
 # Example 3
 tobe = "To be or not to be, that is the question"
-p tobe.gsub "be", "kill" # substitutes the string 'be' for 'kill' in all its occurences
+p tobe.gsub! "be", "kill" # substitutes the string 'be' for 'kill' in all its occurences
 
 # Output:
 "To kill or not to kill, that is the question"  
 ```
-
-If we print the original variable that holds the string, we see it was not changed:  
-
-```bash
-p tobe
-
-# Output:  "To be or not to be, that is the question"  
-```
-
-To change permanently this variable use `!`:  
 
 ```bash
 tobe.gsub! "be", "kill"
