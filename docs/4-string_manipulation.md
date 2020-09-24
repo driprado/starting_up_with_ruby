@@ -153,7 +153,7 @@ p tobe.split(//)    # Split array by letter instead fo word
 ### 4.3.1 sub
 
 Substitutes the first occuence of a string  
-Ex: `4_string_substitution.rb`
+Ex: [`4_string_substitution.rb`](../code/4_string_substituion.rb)
 
 ```bash
 # Example 1
