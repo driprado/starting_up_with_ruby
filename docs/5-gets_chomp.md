@@ -3,7 +3,7 @@
 To take input from keyboard as strings and add it to a variable we can use the gets method.  
 
 ## gets
-Ex: `5_gets_chomp.rb`
+Ex: [`5_gets_chomp.rb`](../code/5_gets_chomp.rb)
 
 ```bash
 # Example 1
@@ -34,7 +34,7 @@ Even if you type the correct password, the result would be false, bacause the in
 ## chomp
 
 To clear the `\n` at the end of the string we can use `.chomp`  
-Ex: `5_gets_chomp.rb`  
+Ex: [`5_gets_chomp.rb`](../code/5_gets_chomp.rb)
 
 ```bash
 # Example 3
