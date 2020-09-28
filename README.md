@@ -7,3 +7,5 @@
 [`3 - Printing`](/docs/3-printing.md)
 
 [`4 - String Manipulation`](docs/4-string_manipulation.md)
+
+[`5 - Gets and Chomp`](docs/5-gets_chomp.md)
