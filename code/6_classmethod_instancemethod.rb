@@ -1,4 +1,3 @@
-# Class Methods Vs Instance Methods:
 class Printer
     # Class method
     def self.printout
@@ -12,10 +11,11 @@ class Printer
 end
 
 # Calling class method
-Printer.printout # Will work by calling class.method
+Printer.printout
 
 # Calling Instance method
-instance = Printer.new # Have to instanciate the class before calling the method
+instance = Printer.new 
 instance.convert_to_pdf
+
 # alternatively you can write a one-liner
 Printer.new.convert_to_pdf
