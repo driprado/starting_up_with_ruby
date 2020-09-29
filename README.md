@@ -9,3 +9,5 @@
 [`4 - String Manipulation`](docs/4-string_manipulation.md)
 
 [`5 - Gets and Chomp`](docs/5-gets_chomp.md)
+
+[`6 - Methods`](docs/6-methods.md)
