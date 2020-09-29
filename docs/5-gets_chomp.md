@@ -12,10 +12,12 @@ Ex: [`5_gets_chomp.rb`](../code/5_gets_chomp.rb)
 puts "Enter your name: "
 name = gets
 puts "your name is : #{name}"
+
+# Output:
+your name is : Adria
 ```
 
-Gets adds a new line at the end of the input string, so when matching input data against other variables you shound account for the \n at the end of each input.  
-Ex: `5_gets_chomp.rb`
+Gets adds a new line at the end of the input string, so when matching input data against other variables you shound account for the `\n` at the end of each input.  
 
 ```bash
 # Example 2
@@ -35,7 +37,6 @@ Even if you type the correct password, the result would be false, bacause the in
 ## chomp
 
 To clear the `\n` at the end of the string we can use `.chomp`  
-Ex: [`5_gets_chomp.rb`](../code/5_gets_chomp.rb)
 
 ```bash
 # Example 3
