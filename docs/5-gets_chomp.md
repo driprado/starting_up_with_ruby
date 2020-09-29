@@ -3,6 +3,7 @@
 To take input from keyboard as strings and add it to a variable we can use the gets method.  
 
 ## gets
+
 Ex: [`5_gets_chomp.rb`](../code/5_gets_chomp.rb)
 
 ```bash
@@ -14,7 +15,7 @@ puts "your name is : #{name}"
 ```
 
 Gets adds a new line at the end of the input string, so when matching input data against other variables you shound account for the \n at the end of each input.  
-Ex: `5_gets_chomp.rb`   
+Ex: `5_gets_chomp.rb`
 
 ```bash
 # Example 2
